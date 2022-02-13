@@ -15,13 +15,13 @@ html {
 body {
     min-height: 100%;
     line-height: 1;
-    font-family: 'Teko', serif;
+    font-family: serif;
 }
 
 h1,
 h2,
 h3 {
-    font-size: 50px;
+    font-size: 100%;
 }
 
 input,
@@ -31,7 +31,7 @@ textarea,
 button,
 pre,
 code {
-    font-size: 50px;
+    font-size: 100%;
     font-family: 'Righteous', serif;
 }
 
