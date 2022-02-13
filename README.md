@@ -7,7 +7,7 @@ This is my portfolio page. It will contain elements of the following in its desi
 >1. HTML (semantic backbone)
 >2. CSS (Front-End Design)
 >3. Javascript (Im going to go into detail in a few minutes)
->4. API retrieval (Incorporates api from ![Openweathermap](https://openweathermap.org))
+>4. API retrieval (Incorporates api from [Openweathermap](https://openweathermap.org))
 
 Developer's note: The HTML and CSS will have dynamically updated features to it.
 
