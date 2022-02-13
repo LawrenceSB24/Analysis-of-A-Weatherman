@@ -54,7 +54,7 @@ So the previous iteration had most of its UI elements match what the acceptance 
 
 >2. Honestly.....I did struggle with the adaptive quality for viewing the page on different screen sizes. I am still a little hesitant to deal with this aspect, though there are now multiple tools that can be used to reduce the level of difficulty.
 
-For a look at the previous portfolio site ![Click Here](http://lawrencesb24.github.io/Weatherman-Portfolio/)
+For a look at the previous portfolio site [Click Here](http://lawrencesb24.github.io/Weatherman-Portfolio/)
 
 =======================================================================================
 
