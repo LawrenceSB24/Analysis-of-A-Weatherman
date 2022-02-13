@@ -1,0 +1,35 @@
+:root {
+    --bg-color: rgb(150, 148, 148);
+    --font-AM: 'Teko';
+    --font-W: 'Righteous';
+    --font-CM: 'Play';
+    --header-color1: rgb(138, 130, 130);
+    --header-color2: rgb(132, 173, 226);
+    --footer-color1: rgb(71, 71, 187);
+    --footer-color2: rgb(104, 141, 165);
+    --font-AM-size: 30px;
+    --font-W-size: 35px;
+    --font-CM-size: 25px;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: linear-gradient(var(--header-color1), var(--header-color2));
+    font-size: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card {
+    background-color: darkslategray;
+    color: aqua;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 12px;
+}
