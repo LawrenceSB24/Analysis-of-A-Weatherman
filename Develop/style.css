@@ -26,10 +26,50 @@ body {
     overflow: hidden;
 }
 
-.card {
+.name {
     background-color: darkslategray;
     color: aqua;
     width: fit-content;
     padding: 5px;
     border-radius: 12px;
+    margin-top: 10px;
+}
+
+.row {
+    text-align: right;
+}
+
+.info a{
+    color: rgb(46, 9, 209);
+    text-decoration: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+.snow {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://i.gifer.com/QAOA.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.quote {
+    background-color: aliceblue;
+    width: fit-content;
+    position: absolute;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: var(--font-W);
+    font-size: 20px;
+}
+
+.AM {
+    font-family: var(--font-AM);
+    font-size: var(--font-AM-size);
 }
