@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
 
     <title>When the lightning strikes</title>
 </head>
+
 <body>
 
     <header class="jumbotron display-3">
@@ -24,9 +26,9 @@
             <div class="card-body">
                 <h1 class="card-title">Lawrence Blundo</h1>
             </div>
-            
+
         </div>
-        
+
         <div class="card info">
             <div class="row">
                 <a href="#About-Me">About Me</a>
@@ -36,7 +38,7 @@
             </div>
         </div>
     </header>
-    
+
     <div class="card snow">
         <h4 class="quote ">A glimpse into the mind of a weatherman</h4>
     </div>
@@ -50,13 +52,17 @@
                 </div>
                 <div class="card-body">
                     <hr class="solid">
-                    <p>My name is Lawrence Blundo.</p> 
+                    <p>My name is Lawrence Blundo.</p>
                     <p>I was born and raised in Boston, MA before moving to New Hampshire . </p>
-                    <p>I graduated from Embry-Riddle Aeronautical University with a Master of Science in Applied Meteorology. </p>
-                    <p>I am currently enrolled with the UNH Boot Camp to further my knowledge in web design, while working as a food service associate with UNH.</p>
+                    <p>I graduated from Embry-Riddle Aeronautical University with a Master of Science in Applied
+                        Meteorology. </p>
+                    <p>I am currently enrolled with the UNH Boot Camp to further my knowledge in web design, while
+                        working as a food service associate with UNH.</p>
                     <p>My current endevors include designing a weather model via two different platforms.</p>
-                    <p>One uses a combination of HTML, CSS, and Javascript libraires to forecast weather from any given location.</p>
-                    <p>The other uses a DNN model to forecast weather in a given location. This model is in its developemental stages, using a combination of Python and LINUX.</p>
+                    <p>One uses a combination of HTML, CSS, and Javascript libraires to forecast weather from any given
+                        location.</p>
+                    <p>The other uses a DNN model to forecast weather in a given location. This model is in its
+                        developemental stages, using a combination of Python and LINUX.</p>
                 </div>
             </div>
         </div>
@@ -64,39 +70,58 @@
         <br>
 
         <div class="container">
-            <div id="Work" class="Work-section">
+            <div id="Work" class="W">
                 <h2>Work</h2>
                 <hr class="solid">
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="./Assets/Hiking-Trails-Finder.png" alt="Hiking Trails Finder">
-                            <a href="https://sdseney508.github.io/Group-Project-1/">Hiking Trail Finder</a>
+                <div class="card" id="main-app">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <a href="https://sdseney508.github.io/Group-Project-1/">
+                                <h4 class="card-title" id="Heading">Hiking Trail Finder</h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="card">
-                            <div class="card-body">
-                            
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                            
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                            
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                            
+                </div>
+                <div class="card-group">
+                    <div class="card col-12">
+                        <div class="card-body" id="Application-2">
+                            <div class="card-text">
+                                <a href="https://lawrencesb24.github.io/Code-Quiz-of-Inevitability/">
+                                    <h4 class="card-title" id="Heading">Code Quiz</h4>
+                                </a>
                             </div>
                         </div>
                     </div>
+                    <div class="card col-12">
+                        <div class="card-body" id="Application-3">
+                            <div class="card-text">
+                                <a href="https://lawrencesb24.github.io/Daily-Planner-of-The-Dead/">
+                                    <h4 class="card-title" id="Heading">Daily Planner</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="card-group">
+                    <div class="card col-12">
+                        <div class="card-body" id="Application-4">
+                            <div class="card-text">
+                                <a href="https://lawrencesb24.github.io/Cloudy-with-a-chance-of-passwords/">
+                                    <h4 class="card-title" id="Heading">Password Generator</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12">
+                        <div class="card-body" id="Application-5">
+                            <div class="card-text">
+                                <a href="https://lawrencesb24.github.io/Storm-Chaser/">
+                                    <h4 class="card-title" id="Heading">Weather Dashboard</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -104,16 +129,16 @@
 
         <br>
 
-        <div id="Contact-Me" class="Contact-Me">
+
+        <div id="Contact-Me" class="CM">
             <h2>Contact Me</h2>
             <hr class="solid">
-            <p>Email: lawrsblundo22@outlook.com</p>
-            <p>Phone Number: (617) 721-1701</p>
+            <p>lawrsblundo22@outlook.com</p>
+            <p>(617) 721-1701</p>
             <a href="https://github.com/LawrenceSB24">Github</a>
             <a href="https://www.linkedin.com/in/lawrence-blundo-2735b61a1/">Linkedin</a>
         </div>
-
-        <footer>
+        <footer class="End">
             <h6>Made with commitment via Bootstrap and JQuery.</h6>
         </footer>
     </main>
@@ -124,4 +149,5 @@
 
     <script src="./Develop/script.js"></script>
 </body>
+
 </html>
