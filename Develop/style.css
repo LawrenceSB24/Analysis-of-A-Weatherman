@@ -8,7 +8,7 @@
     --footer-color1: rgb(71, 71, 187);
     --footer-color2: rgb(104, 141, 165);
     --font-AM-size: 30px;
-    --font-W-size: 35px;
+    --font-W-size: 25px;
     --font-CM-size: 25px;
 }
 
@@ -72,4 +72,92 @@ body {
 .AM {
     font-family: var(--font-AM);
     font-size: var(--font-AM-size);
+}
+
+.W {
+    font-family: var(--font-W);
+    font-size: var(--font-W-size);
+}
+
+#main-app {
+    background-image: url("./Assets/Hiking-Trails-Finder.png");
+    background-size: contain;
+    height: 400px;
+    width: 600px;
+    margin: 20px;
+    border: 5px solid aqua;
+    background-size: cover;
+    opacity: .5;
+}
+
+#Application-2,
+#Application-3,
+#Application-4,
+#Application-5{
+    height: 350px;
+    width: 550px;
+    margin: 20px;
+    border: 5px solid aqua;
+    background-size: cover;
+    opacity: .5;
+}
+
+#Application-2 {
+    background-image: url("./Assets/Code-quiz.png");
+}
+
+#Application-3 {
+    background-image: url("./Assets/Deployed-application-screenshot.png");
+}
+
+#Application-4 {
+    background-image: url("./Assets/Password-generator.png");
+}
+
+#Application-5 {
+    background-image: url("./Assets/Weather-Dashboard.png");
+}
+
+#Heading {
+    border: 5px solid aqua;
+    background-color: aqua;
+    width: fit-content;
+}
+
+.CM {
+    background-image: linear-gradient(var(--footer-color2), var(--footer-color1));
+}
+
+.CM h2,
+.CM p,
+.CM a{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px;
+    font-family: var(--font-CM);
+    font-size: var(--font-CM-size);
+    color: bisque;
+}
+
+.End {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-image: linear-gradient(var(--footer-color1), var(--footer-color2));
+}
+
+.card-group {
+    display: flex;
+    margin-top: 20px;
+}
+
+#main-app:hover,
+#Application-2:hover,
+#Application-3:hover,
+#Application-4:hover,
+#Application-5:hover {
+    opacity: 1;
+    margin: 40px;
+    transform: scale(1.1);
+    transition: all ease-in .3s;
 }
