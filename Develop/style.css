@@ -139,6 +139,10 @@ body {
     color: bisque;
 }
 
+.CM a {
+    text-decoration: none;
+}
+
 .End {
     padding: 20px;
     text-align: center;
