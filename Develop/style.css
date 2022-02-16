@@ -58,7 +58,7 @@ body {
     overflow: hidden;
 }
 
-.quote {
+.text {
     background-color: aliceblue;
     width: fit-content;
     position: absolute;
@@ -79,9 +79,13 @@ body {
     font-size: var(--font-W-size);
 }
 
+.W a {
+    text-decoration: none;
+    color: navy;
+}
+
 #main-app {
     background-image: url("./Assets/Hiking-Trails-Finder.png");
-    background-size: contain;
     height: 400px;
     width: 600px;
     margin: 20px;
@@ -103,19 +107,19 @@ body {
 }
 
 #Application-2 {
-    background-image: url("./Assets/Code-quiz.png");
+    background-image: url("./Assets/Code-quiz-app.png");
 }
 
 #Application-3 {
-    background-image: url("./Assets/Deployed-application-screenshot.png");
+    background-image: url("./Assets/Daily-planner-app.png");
 }
 
 #Application-4 {
-    background-image: url("./Assets/Password-generator.png");
+    background-image: url("./Assets/password-generator-app.png");
 }
 
 #Application-5 {
-    background-image: url("./Assets/Weather-Dashboard.png");
+    background-image: url("./Assets/weather-dashboard-app.png");
 }
 
 #Heading {
@@ -146,7 +150,9 @@ body {
 .End {
     padding: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    color: darkgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(var(--footer-color1), var(--footer-color2));
 }
 
