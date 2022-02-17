@@ -20,15 +20,16 @@
 </head>
 
 <body>
-
+    <!-- Header section. Contains a jumbotron, a name card, and a section card -->
     <header class="jumbotron display-3">
+        <!-- Potential employee name card -->
         <div class="card name">
             <div class="card-body">
                 <h1 class="card-title">Lawrence Blundo</h1>
             </div>
 
         </div>
-
+        <!-- Card that contains links to sections within the page -->
         <div class="card info">
             <div class="row">
                 <a href="#About-Me">About Me</a>
@@ -39,25 +40,33 @@
         </div>
     </header>
 
+    <!-- Set up the background image and further interactive features of the page -->
     <div class="card snow">
+        <!-- Contains the information for the card within the image card -->
         <div class="card-body text">
+            <!-- Basic intro quote text -->
             <h4 class="quote ">A glimpse into the mind of a weatherman</h4>
+            <!-- Input field where user types in name of city, then hit the search button -->
             <input id="selected-city" class="form-control" type="text" placeholder="Enter city" aria-label="Enter city"></input>
             <button class="search" id="fetch-btn">search</button>
             <br>
+            <!-- Displays live date and time when the user reads the page -->
             <p id="day"></p>
-            <img id="icon">
-            <p id="Location"></p>
-            <p id="date-time"></p>
-            <p id="Temp"></p>
-            <p id="Wind"></p>
-            <p id="Conditions"></p>
+            <!-- Weather card that generates ceratin weather info for the city user inputs -->
+            <img id="icon"> <!-- Weather condition icon -->
+            <p id="Location"></p> <!-- Name of the location -->
+            <p id="date-time"></p> <!-- Shows live Time and Day for location in any time zone -->
+            <p id="Temp"></p> <!-- Shows the current temperature for location -->
+            <p id="Wind"></p> <!-- Shows wind speed for location -->
+            <p id="Conditions"></p> <!-- Gives a brief description of the weather in location -->
         </div>
     </div>
     <br>
 
     <main>
+        <!-- About Me section. Uses Bootstrap to set info within a container -->
         <div class="container">
+            <!-- About Me card -->
             <div class="card AM">
                 <div class="card-title" id="About-Me">
                     <h2>About Me</h2>
@@ -80,21 +89,25 @@
         </div>
 
         <br>
-
+        <!-- Work section container -->
         <div class="container">
             <div id="Work" class="W">
                 <h2>Work</h2>
                 <hr class="solid">
+                <!-- Main application card -->
                 <div class="card" id="main-app">
                     <div class="card-body">
                         <div class="card-text">
+                            <!-- The first application link is from the first UNH Coding Bootcamp group project  -->
                             <a href="https://sdseney508.github.io/Group-Project-1/">
                                 <h4 class="card-title" id="Heading">Hiking Trail Finder</h4>
                             </a>
                         </div>
                     </div>
                 </div>
+                <!-- Card groups that handle the next application cards in page -->
                 <div class="card-group">
+                    <!-- First group that contains the second and third app cards. Bootstrap formatting -->
                     <div class="card col-12">
                         <div class="card-body" id="Application-2">
                             <div class="card-text">
@@ -114,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Second card group that contains the fourth and fifth app cards. Bootstrap formating -->
                 <div class="card-group">
                     <div class="card col-12">
                         <div class="card-body" id="Application-4">
@@ -141,7 +154,7 @@
 
         <br>
 
-
+        <!-- Contact Me section. Basic div class since info is not dynamic -->
         <div id="Contact-Me" class="CM">
             <h2>Contact Me</h2>
             <hr class="solid">
@@ -150,15 +163,19 @@
             <a href="https://github.com/LawrenceSB24">Github</a>
             <a href="https://www.linkedin.com/in/lawrence-blundo-2735b61a1/">Linkedin</a>
         </div>
+
+        <!-- Footer section -->
         <footer class="End">
             <h6>Made with Bootstrap and JQuery.</h6>
         </footer>
     </main>
+
+    <!-- Links to popper, jquery, and moment.js files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-
+    <!-- Link to personal javascript file -->
     <script src="./Develop/script.js"></script>
 </body>
 
