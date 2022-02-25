@@ -1,3 +1,4 @@
+/* Root section that adds variables for style elements in the page */
 :root {
     --bg-color: rgb(150, 148, 148);
     --font-AM: 'Teko';
@@ -12,6 +13,7 @@
     --font-CM-size: 25px;
 }
 
+/* Basic body styling and formatting */
 body {
     background-color: var(--bg-color);
     font-family: serif;
@@ -19,6 +21,7 @@ body {
     padding: 0;
 }
 
+/* Jumbotron main style section */
 .jumbotron {
     background-image: linear-gradient(var(--header-color1), var(--header-color2));
     font-size: 30px;
@@ -26,6 +29,7 @@ body {
     overflow: hidden;
 }
 
+/* Style section for the name element in jumbotron */
 .name {
     background-color: darkslategray;
     color: aqua;
@@ -36,13 +40,16 @@ body {
     font-size: 40px;
 }
 
+/* Changes background color for weather icon */
 #icon {
     background-color: rgb(151, 149, 149);
 }
+/* Formating for elements within the row class */
 .row {
     text-align: right;
 }
 
+/* Style and format section for all info links within the jumbotron */
 .info a{
     color: rgb(46, 9, 209);
     text-decoration: none;
@@ -50,6 +57,7 @@ body {
     padding: 0px;
 }
 
+/* Style and Format section for the background gif */
 .snow {
     display: flex;
     justify-content: space-between;
@@ -62,6 +70,7 @@ body {
     overflow: hidden;
 }
 
+/* Style and formating for text card within the background gif */
 .text {
     background-color: aliceblue;
     width: fit-content;
@@ -73,21 +82,25 @@ body {
     font-size: 20px;
 }
 
+/* Basic font style for the About Me section */
 .AM {
     font-family: var(--font-AM);
     font-size: var(--font-AM-size);
 }
 
+/* Style and format section for all elements within the Work section of the page */
 .W {
     font-family: var(--font-W);
     font-size: var(--font-W-size);
 }
 
+/* Handles style for links within the deployed app cards */
 .W a {
     text-decoration: none;
     color: navy;
 }
 
+/* Style and format for the main application card. Background image is the live page of the application */
 #main-app {
     background-image: url("./Assets/Hiking-Trails-Finder.png");
     height: 400px;
@@ -98,6 +111,7 @@ body {
     opacity: .5;
 }
 
+/* Style and formating for the next four app cards. */
 #Application-2,
 #Application-3,
 #Application-4,
@@ -110,32 +124,34 @@ body {
     opacity: .5;
 }
 
+/* Live application images set to background */
 #Application-2 {
     background-image: url("./Assets/Code-quiz-app.png");
 }
-
 #Application-3 {
     background-image: url("./Assets/Daily-planner-app.png");
 }
-
 #Application-4 {
     background-image: url("./Assets/password-generator-app.png");
 }
-
 #Application-5 {
     background-image: url("./Assets/weather-dashboard-app.png");
 }
 
+/* Style and format for the title of the Work cards */
 #Heading {
     border: 5px solid aqua;
     background-color: aqua;
     width: fit-content;
 }
+/* End of Work style and format section*/
 
+/* Styling and Formating section for Contact Me cards */
 .CM {
     background-image: linear-gradient(var(--footer-color2), var(--footer-color1));
 }
 
+/* Handles style and format for the text in the Contact Me section */
 .CM h2,
 .CM p,
 .CM a{
@@ -147,10 +163,13 @@ body {
     color: bisque;
 }
 
+/* Removes underline for links in Contact Me */
 .CM a {
     text-decoration: none;
 }
+/* End of Contact Me design section */
 
+/* Design section for footer elements */
 .End {
     padding: 20px;
     text-align: center;
@@ -160,11 +179,14 @@ body {
     background-image: linear-gradient(var(--footer-color1), var(--footer-color2));
 }
 
+/* Format for Work deployed application cards 3-5 to line up evenly*/
 .card-group {
     display: flex;
     margin-top: 20px;
 }
 
+
+/* Final section: Handles interactive elements where the user hovers over a app card, it will appear to pop out */
 #main-app:hover,
 #Application-2:hover,
 #Application-3:hover,

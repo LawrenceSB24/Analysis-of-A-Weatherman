@@ -81,4 +81,6 @@ The site contains the following sections:
 
 =======================================================================================
 
-#### Link to the new iteration: TBA
+#### Link to the new iteration: [Click Here](https://lawrencesb24.github.io/Analysis-of-A-Weatherman/)
+
+![Here is a picture of the live portfolio page](./Develop/Assets/Updated-portfolio-live-page.png)
