@@ -102,9 +102,9 @@ body {
 
 /* Style and format for the main application card. Background image is the live page of the application */
 #main-app {
-    background-image: url("./Assets/Hiking-Trails-Finder.png");
-    height: 400px;
-    width: 600px;
+    background-image: url("./Assets/PokeDex.png");
+    height: 500px;
+    width: 700px;
     margin: 20px;
     border: 5px solid aqua;
     background-size: cover;
@@ -126,16 +126,16 @@ body {
 
 /* Live application images set to background */
 #Application-2 {
-    background-image: url("./Assets/Code-quiz-app.png");
+    background-image: url("./Assets/E-Commerece-from-Boston.png");
 }
 #Application-3 {
-    background-image: url("./Assets/Daily-planner-app.png");
+    background-image: url("./Assets/Employee-Tracker-with-Skynet.png");
 }
 #Application-4 {
-    background-image: url("./Assets/password-generator-app.png");
+    background-image: url("./Assets/Note-Taker-for-Maniacs.png");
 }
 #Application-5 {
-    background-image: url("./Assets/weather-dashboard-app.png");
+    background-image: url("./Assets/README-Telepathy-Generator.png");
 }
 
 /* Style and format for the title of the Work cards */
