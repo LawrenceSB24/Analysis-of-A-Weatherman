@@ -10,7 +10,7 @@ This is my portfolio page. It will contain elements of the following in its desi
 >4. API retrieval (Incorporates api from [Openweathermap](https://openweathermap.org))
 
 Developer's note: The HTML and CSS will have dynamically updated features to it.
-================================================================================
+
 
 ## USER STORY
 ```
@@ -18,8 +18,6 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work assess whether they are a good canidate for an open position
 ```
-
-================================================================================
 
 ## ACCEPTANCE CRITERIA
 
@@ -41,7 +39,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-================================================================================
+
 ## Portfollio Page Description
 
 The site contains the following sections: 
@@ -52,17 +50,15 @@ The site contains the following sections:
 
 >3. Contact Me: This section contains the contact information for the employer to reach back with the potential canidate in the future
 
-=================================================================================
 
 ## Additional features
 
 * Text box with automatic updating time/date and weather search feature
-=========================================================================
+
 #### Link to the new iteration: [Click Here](https://lawrencesb24.github.io/Analysis-of-A-Weatherman/)
 
 ![Here is a picture of the live portfolio page](./Develop/Assets/Updated-Portfolio-Page.png)
 
-==========================================================================
 
 ## Questions
 
